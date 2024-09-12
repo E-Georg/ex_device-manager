@@ -1,0 +1,12 @@
+{
+  "name": "ex_device-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "Georg Strassberger",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {}
+}
