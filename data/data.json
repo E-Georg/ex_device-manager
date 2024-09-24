@@ -1,0 +1,222 @@
+[
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "str",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10000,
+    "endDeviceId": "ei-de-str-lw-sn-b10000"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "str",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10001,
+    "endDeviceId": "ei-de-str-lw-sn-b10001"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "str",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10002,
+    "endDeviceId": "ei-de-str-lw-sn-b10002"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10000,
+    "endDeviceId": "ei-de-dd-lw-sn-b10000"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10001,
+    "endDeviceId": "ei-de-dd-lw-sn-b10001"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10002,
+    "endDeviceId": "ei-de-dd-lw-sn-b10002"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10003,
+    "endDeviceId": "ei-de-dd-lw-sn-b10003"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10004,
+    "endDeviceId": "ei-de-dd-lw-sn-b10004"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "str",
+    "driver": "lw",
+    "type": "gw",
+    "year": "b",
+    "amount": 10001,
+    "endDeviceId": "ei-de-str-lw-gw-b10001"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10000,
+    "endDeviceId": "ei-de-dd-lw-sn-b10000"
+  },
+  {
+    "customer": "ei",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "gw",
+    "year": "b",
+    "amount": 10001,
+    "endDeviceId": "ei-de-dd-lw-gw-b10001"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "gw",
+    "year": "b",
+    "amount": 10000,
+    "endDeviceId": "si-de-dd-lw-gw-b10000"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "gw",
+    "year": "b",
+    "amount": 10001,
+    "endDeviceId": "si-de-dd-lw-gw-b10001"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10000,
+    "endDeviceId": "si-de-dd-lw-sn-b10000"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10001,
+    "endDeviceId": "si-de-dd-lw-sn-b10001"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10002,
+    "endDeviceId": "si-de-dd-lw-sn-b10002"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10003,
+    "endDeviceId": "si-de-dd-lw-sn-b10003"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10004,
+    "endDeviceId": "si-de-dd-lw-sn-b10004"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10005,
+    "endDeviceId": "si-de-dd-lw-sn-b10005"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10006,
+    "endDeviceId": "si-de-dd-lw-sn-b10006"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10007,
+    "endDeviceId": "si-de-dd-lw-sn-b10007"
+  },
+  {
+    "customer": "si",
+    "country": "de",
+    "city": "dd",
+    "driver": "lw",
+    "type": "sn",
+    "year": "b",
+    "amount": 10008,
+    "endDeviceId": "si-de-dd-lw-sn-b10008"
+  }
+]
