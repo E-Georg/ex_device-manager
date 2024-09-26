@@ -38,4 +38,6 @@ const endDeviceIdSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model("EndDeviceId", endDeviceIdSchema);
+const EndDeviceId = mongoose.model("EndDeviceId", endDeviceIdSchema);
+
+module.exports = EndDeviceId;

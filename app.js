@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const dotenv = require("dotenv").config();
 const mongoose = require("mongoose");
 const endDeviceIdRoutes = require("./routes/endDeviceIdRoutes");
+const customerRoutes = require("./routes/customerRoutes");
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -34,4 +35,5 @@ mongoose
     process.exit(1);
   });
 
-app.use("/api", endDeviceIdRoutes);
+app.use("/api/enddevices", endDeviceIdRoutes);
+app.use("/api/customers", customerRoutes);

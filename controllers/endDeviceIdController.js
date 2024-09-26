@@ -1,9 +1,15 @@
 const EndDeviceId = require("../models/endDeviceId");
+const { validationResult } = require("express-validator");
 
 // Kontrollieren einer neuen EndDeviceId
 exports.checkEndDevice = async (req, res) => {
-  // check req.body of data
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   const { customer, country, city, driver, type, year } = req.body;
+
   try {
     const existingDevices = await EndDeviceId.find({
       customer,
@@ -40,7 +46,7 @@ exports.checkEndDevice = async (req, res) => {
     res.status(200).json(nextEndDeviceId);
   } catch (err) {
     console.log("Error", err);
-    res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: err.message });
   }
 };
 
@@ -97,8 +103,10 @@ exports.updateEndDeviceById = async (req, res) => {
 
 // Löschen eines EndDeviceId nach ID
 exports.deleteEndDeviceById = async (req, res) => {
+  const { id } = req.params;
+  console.log("id: ", id);
   try {
-    const deletedDevice = await EndDeviceId.findByIdAndDelete(req.params.id);
+    const deletedDevice = await EndDeviceId.findByIdAndDelete(id);
     if (!deletedDevice) {
       return res.status(404).json({ error: "EndDeviceId nicht gefunden" });
     }
